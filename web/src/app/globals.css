@@ -1,0 +1,159 @@
+@import "tailwindcss";
+
+:root {
+  /* Material Theme - Light Mode */
+  --primary: #2D6A45;
+  --on-primary: #FFFFFF;
+  --primary-container: #B1F1C2;
+  --on-primary-container: #10512F;
+  
+  --secondary: #4F6353;
+  --on-secondary: #FFFFFF;
+  --secondary-container: #D2E8D4;
+  --on-secondary-container: #384B3D;
+  
+  --tertiary: #3A646F;
+  --on-tertiary: #FFFFFF;
+  --tertiary-container: #BEEAF7;
+  --on-tertiary-container: #214C57;
+  
+  --error: #BA1A1A;
+  --on-error: #FFFFFF;
+  --error-container: #FFDAD6;
+  --on-error-container: #93000A;
+  
+  --background: #F6FBF3;
+  --on-background: #181D18;
+  --surface: #F6FBF3;
+  --on-surface: #181D18;
+  
+  --surface-variant: #DCE5DB;
+  --on-surface-variant: #414942;
+  --outline: #717971;
+  --outline-variant: #C0C9BF;
+  
+  --surface-dim: #D6DBD4;
+  --surface-bright: #F6FBF3;
+  --surface-container-lowest: #FFFFFF;
+  --surface-container-low: #F0F5ED;
+  --surface-container: #EAEFE8;
+  --surface-container-high: #E5EAE2;
+  --surface-container-highest: #DFE4DD;
+  
+  --inverse-surface: #2C322D;
+  --inverse-on-surface: #EDF2EB;
+  --inverse-primary: #95D5A7;
+  
+  --shadow: #000000;
+  --scrim: #000000;
+  
+  /* Shortcuts */
+  --foreground: var(--on-background);
+}
+
+@theme inline {
+  --color-primary: var(--primary);
+  --color-on-primary: var(--on-primary);
+  --color-primary-container: var(--primary-container);
+  --color-on-primary-container: var(--on-primary-container);
+  
+  --color-secondary: var(--secondary);
+  --color-on-secondary: var(--on-secondary);
+  --color-secondary-container: var(--secondary-container);
+  --color-on-secondary-container: var(--on-secondary-container);
+  
+  --color-tertiary: var(--tertiary);
+  --color-on-tertiary: var(--on-tertiary);
+  --color-tertiary-container: var(--tertiary-container);
+  --color-on-tertiary-container: var(--on-tertiary-container);
+  
+  --color-error: var(--error);
+  --color-on-error: var(--on-error);
+  --color-error-container: var(--error-container);
+  --color-on-error-container: var(--on-error-container);
+  
+  --color-background: var(--background);
+  --color-on-background: var(--on-background);
+  --color-foreground: var(--foreground);
+  --color-surface: var(--surface);
+  --color-on-surface: var(--on-surface);
+  
+  --color-surface-variant: var(--surface-variant);
+  --color-on-surface-variant: var(--on-surface-variant);
+  --color-outline: var(--outline);
+  --color-outline-variant: var(--outline-variant);
+  
+  --color-surface-dim: var(--surface-dim);
+  --color-surface-bright: var(--surface-bright);
+  --color-surface-container-lowest: var(--surface-container-lowest);
+  --color-surface-container-low: var(--surface-container-low);
+  --color-surface-container: var(--surface-container);
+  --color-surface-container-high: var(--surface-container-high);
+  --color-surface-container-highest: var(--surface-container-highest);
+  
+  --color-inverse-surface: var(--inverse-surface);
+  --color-inverse-on-surface: var(--inverse-on-surface);
+  --color-inverse-primary: var(--inverse-primary);
+  
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Material Theme - Dark Mode */
+    --primary: #95D5A7;
+    --on-primary: #00391D;
+    --primary-container: #10512F;
+    --on-primary-container: #B1F1C2;
+    
+    --secondary: #B6CCB9;
+    --on-secondary: #223527;
+    --secondary-container: #384B3D;
+    --on-secondary-container: #D2E8D4;
+    
+    --tertiary: #A2CDDA;
+    --on-tertiary: #023640;
+    --tertiary-container: #214C57;
+    --on-tertiary-container: #BEEAF7;
+    
+    --error: #FFB4AB;
+    --on-error: #690005;
+    --error-container: #93000A;
+    --on-error-container: #FFDAD6;
+    
+    --background: #101510;
+    --on-background: #DFE4DD;
+    --surface: #101510;
+    --on-surface: #DFE4DD;
+    
+    --surface-variant: #414942;
+    --on-surface-variant: #C0C9BF;
+    --outline: #8B938A;
+    --outline-variant: #414942;
+    
+    --surface-dim: #101510;
+    --surface-bright: #353B36;
+    --surface-container-lowest: #0A0F0B;
+    --surface-container-low: #181D18;
+    --surface-container: #1C211C;
+    --surface-container-high: #262B27;
+    --surface-container-highest: #313631;
+    
+    --inverse-surface: #DFE4DD;
+    --inverse-on-surface: #2C322D;
+    --inverse-primary: #2D6A45;
+    
+    --shadow: #000000;
+    --scrim: #000000;
+    
+    /* Shortcuts */
+    --foreground: var(--on-background);
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}

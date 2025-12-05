@@ -1,0 +1,42 @@
+{
+  "hero": {
+    "title": "Welcome to TIME Lab",
+    "subtitle": "Time-series Intelligence and Machine learning Excellence Laboratory"
+  },
+  "bentoGrid": {
+    "headline": "What We Do",
+    "title": "Advancing AI Research",
+    "items": [
+      {
+        "title": "Research Excellence",
+        "subtitle": "Our Focus",
+        "description": "We are dedicated to advancing the field of machine learning and artificial intelligence through innovative research.",
+        "colSpan": 3
+      },
+      {
+        "title": "Latest Publications",
+        "subtitle": "Recent Work",
+        "description": "Explore our recent publications in top-tier conferences and journals.",
+        "colSpan": 3
+      },
+      {
+        "title": "Open Source",
+        "subtitle": "Resources",
+        "description": "We share our code and datasets with the community.",
+        "colSpan": 2
+      },
+      {
+        "title": "Collaborations",
+        "subtitle": "Partners",
+        "description": "Working with leading institutions worldwide.",
+        "colSpan": 2
+      },
+      {
+        "title": "Join Us",
+        "subtitle": "Opportunities",
+        "description": "We are always looking for talented researchers and students.",
+        "colSpan": 2
+      }
+    ]
+  }
+}

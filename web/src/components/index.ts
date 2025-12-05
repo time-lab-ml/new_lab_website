@@ -1,0 +1,6 @@
+export { default as Navbar } from './Navbar'
+export { default as BentoGrid } from './BentoGrid'
+export { default as Timeline } from './Timeline'
+export { default as TeamSection } from './TeamSection'
+export { default as Contact } from './Contact'
+export { default as Mission } from './Mission'

@@ -50,7 +50,7 @@ export default function Contact({
                         <dd>
                           <a
                             href={`mailto:${contact.email}`}
-                            className="font-semibold text-primary"
+                            className="font-semibold text-tertiary hover:text-tertiary/80"
                           >
                             {contact.email}
                           </a>

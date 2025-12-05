@@ -18,7 +18,7 @@ export default function Timeline({ items }: TimelineProps) {
             <div key={item.name}>
               <time
                 dateTime={item.dateTime}
-                className="flex items-center text-sm/6 font-semibold text-primary"
+                className="flex items-center text-sm/6 font-semibold text-tertiary"
               >
                 <svg viewBox="0 0 4 4" aria-hidden="true" className="mr-4 size-1 flex-none">
                   <circle r={2} cx={2} cy={2} fill="currentColor" />

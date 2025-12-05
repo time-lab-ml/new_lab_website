@@ -26,7 +26,7 @@ export default function NewsUpdates({ headline, title, items }: NewsUpdatesProps
     <div className="bg-surface-container py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         {headline && (
-          <h2 className="text-base/7 font-semibold text-primary">{headline}</h2>
+          <h2 className="text-base/7 font-semibold text-tertiary">{headline}</h2>
         )}
         <p className="mt-2 max-w-lg text-4xl font-semibold tracking-tight text-pretty text-on-surface sm:text-5xl">
           {title}
@@ -46,7 +46,7 @@ export default function NewsUpdates({ headline, title, items }: NewsUpdatesProps
                     {formatDate(item.date)}
                   </time>
                   {item.category && (
-                    <span className="inline-flex items-center rounded-full bg-primary-container px-3 py-1 text-xs font-medium text-on-primary-container">
+                    <span className="inline-flex items-center rounded-full bg-tertiary-container px-3 py-1 text-xs font-medium text-on-tertiary-container">
                       {item.category}
                     </span>
                   )}

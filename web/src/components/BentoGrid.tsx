@@ -48,7 +48,7 @@ export default function BentoGrid({ headline, title, items }: BentoGridProps) {
                     />
                   )}
                   <div className="p-10 pt-4">
-                    <h3 className="text-sm/4 font-semibold text-primary">{item.subtitle}</h3>
+                    <h3 className="text-sm/4 font-semibold text-tertiary">{item.subtitle}</h3>
                     <p className="mt-2 text-lg font-medium tracking-tight text-on-surface">
                       {item.title}
                     </p>

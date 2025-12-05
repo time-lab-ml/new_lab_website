@@ -73,7 +73,7 @@ export default function Footer() {
             <a
               key={item.name}
               href={item.href}
-              className="text-on-surface-variant hover:text-primary transition-colors"
+              className="text-on-surface-variant hover:text-tertiary transition-colors"
             >
               <span className="sr-only">{item.name}</span>
               <item.icon aria-hidden="true" className="size-6" />

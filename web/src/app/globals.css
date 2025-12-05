@@ -155,3 +155,60 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Hero 交纏曲線動畫 */
+@keyframes curve-flow-1 {
+  0%, 100% {
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dashoffset: 50;
+  }
+}
+
+@keyframes curve-flow-2 {
+  0%, 100% {
+    stroke-dashoffset: 50;
+  }
+  50% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes curve-flow-3 {
+  0%, 100% {
+    stroke-dashoffset: 25;
+  }
+  50% {
+    stroke-dashoffset: 75;
+  }
+}
+
+@keyframes curve-flow-4 {
+  0%, 100% {
+    stroke-dashoffset: 75;
+  }
+  50% {
+    stroke-dashoffset: 25;
+  }
+}
+
+.curve-animate-1 {
+  stroke-dasharray: 20 10;
+  animation: curve-flow-1 4s ease-in-out infinite;
+}
+
+.curve-animate-2 {
+  stroke-dasharray: 15 8;
+  animation: curve-flow-2 5s ease-in-out infinite;
+}
+
+.curve-animate-3 {
+  stroke-dasharray: 25 12;
+  animation: curve-flow-3 6s ease-in-out infinite;
+}
+
+.curve-animate-4 {
+  stroke-dasharray: 18 9;
+  animation: curve-flow-4 4.5s ease-in-out infinite;
+}

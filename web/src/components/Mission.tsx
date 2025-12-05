@@ -76,7 +76,7 @@ export default function Mission({
                     className="flex flex-col gap-y-2 border-b border-dotted border-outline-variant pb-4"
                   >
                     <dt className="text-sm/6 text-on-surface-variant">{stat.label}</dt>
-                    <dd className="order-first text-6xl font-semibold tracking-tight text-on-surface">
+                    <dd className="order-first text-6xl font-semibold tracking-tight text-primary">
                       {stat.value}
                     </dd>
                   </div>

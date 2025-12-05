@@ -1,41 +1,5 @@
 import Contact from '@/components/Contact'
-
-// Placeholder data - will be replaced with data from JSON
-const contactData = {
-  contactTitle: 'Get in Touch',
-  contactDescription: 'We welcome collaborations, inquiries, and prospective students.',
-  contacts: [
-    {
-      title: 'General Inquiries',
-      email: 'timelab@university.edu',
-      phone: '+1 (555) 123-4567',
-    },
-    {
-      title: 'Collaboration',
-      email: 'collaborate@timelab.edu',
-    },
-    {
-      title: 'Prospective Students',
-      email: 'students@timelab.edu',
-    },
-    {
-      title: 'Media & Press',
-      email: 'press@timelab.edu',
-    },
-  ],
-  locationTitle: 'Location',
-  locationDescription: 'Visit us at our campus.',
-  locations: [
-    {
-      name: 'Main Office',
-      address: ['Computer Science Building', 'Room 512', 'University Campus'],
-    },
-    {
-      name: 'Research Lab',
-      address: ['Engineering Building', 'Room 301', 'University Campus'],
-    },
-  ],
-}
+import contactData from '@/data/contact.json'
 
 export default function ContactPage() {
   return (

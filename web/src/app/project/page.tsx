@@ -1,30 +1,6 @@
-// Placeholder data - will be replaced with data from JSON
-const projects = [
-  {
-    title: 'Project Alpha',
-    description: 'A cutting-edge research project on advanced time-series forecasting methods.',
-    status: 'Active',
-    year: '2024',
-  },
-  {
-    title: 'Project Beta',
-    description: 'Developing efficient transformer architectures for long sequence modeling.',
-    status: 'Active',
-    year: '2024',
-  },
-  {
-    title: 'Project Gamma',
-    description: 'Industry collaboration on applying ML to real-world problems.',
-    status: 'Completed',
-    year: '2023',
-  },
-  {
-    title: 'Project Delta',
-    description: 'Exploring novel neural network architectures for temporal data.',
-    status: 'Active',
-    year: '2024',
-  },
-]
+import projectData from '@/data/project.json'
+
+const { projects } = projectData
 
 export default function Project() {
   return (

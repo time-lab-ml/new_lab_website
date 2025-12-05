@@ -1,30 +1,6 @@
-// Placeholder data - will be replaced with data from JSON
-const events = [
-  {
-    title: 'Lab Seminar: Advances in Time-Series Analysis',
-    date: 'Dec 15, 2024',
-    time: '2:00 PM',
-    location: 'Room 101',
-    type: 'Seminar',
-    description: 'Weekly lab seminar discussing recent advances in the field.',
-  },
-  {
-    title: 'Workshop: Introduction to Deep Learning',
-    date: 'Dec 20, 2024',
-    time: '10:00 AM',
-    location: 'Conference Hall A',
-    type: 'Workshop',
-    description: 'Hands-on workshop for beginners in deep learning.',
-  },
-  {
-    title: 'Guest Lecture: Industry Perspectives on AI',
-    date: 'Jan 10, 2025',
-    time: '3:00 PM',
-    location: 'Auditorium',
-    type: 'Lecture',
-    description: 'Guest speaker from industry sharing insights on AI applications.',
-  },
-]
+import eventData from '@/data/event.json'
+
+const { events } = eventData
 
 export default function Event() {
   return (

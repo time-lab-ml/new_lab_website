@@ -1,27 +1,6 @@
-// Placeholder data - will be replaced with data from JSON
-const publications = [
-  {
-    title: 'A Novel Approach to Time-Series Forecasting',
-    authors: 'John Doe, Jane Smith, et al.',
-    venue: 'NeurIPS 2024',
-    year: '2024',
-    link: '#',
-  },
-  {
-    title: 'Deep Learning for Sequential Data Analysis',
-    authors: 'Jane Smith, John Doe, et al.',
-    venue: 'ICML 2024',
-    year: '2024',
-    link: '#',
-  },
-  {
-    title: 'Efficient Transformers for Long Sequences',
-    authors: 'Alice Chen, Bob Wang, et al.',
-    venue: 'ICLR 2023',
-    year: '2023',
-    link: '#',
-  },
-]
+import publicationData from '@/data/publication.json'
+
+const { publications } = publicationData
 
 export default function Publication() {
   return (

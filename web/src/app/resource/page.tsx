@@ -1,30 +1,6 @@
-// Placeholder data - will be replaced with data from JSON
-const resources = [
-  {
-    title: 'Time-Series Dataset Collection',
-    description: 'A curated collection of time-series datasets for benchmarking.',
-    type: 'Dataset',
-    link: '#',
-  },
-  {
-    title: 'ML Model Zoo',
-    description: 'Pre-trained models for various machine learning tasks.',
-    type: 'Model',
-    link: '#',
-  },
-  {
-    title: 'Research Code Repository',
-    description: 'Open-source implementations of our published research.',
-    type: 'Code',
-    link: '#',
-  },
-  {
-    title: 'Tutorial Series',
-    description: 'Educational materials and tutorials on ML topics.',
-    type: 'Tutorial',
-    link: '#',
-  },
-]
+import resourceData from '@/data/resource.json'
+
+const { resources } = resourceData
 
 export default function Resource() {
   return (

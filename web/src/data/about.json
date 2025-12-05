@@ -46,5 +46,15 @@
       "date": "Sep 2023",
       "dateTime": "2023-09"
     }
-  ]
+  ],
+  "collaborations": {
+    "title": "Our Collaborations",
+    "logos": [
+      { "name": "Australian Research Council", "src": "/logo/australian-research-council.png" },
+      { "name": "CSIRO Data61", "src": "/logo/data61-logo.png" },
+      { "name": "Griffith University", "src": "/logo/GU_Logo_Core Stacked_red_rgb.svg" },
+      { "name": "Australian National University", "src": "/logo/ANU-logo.webp" },
+      { "name": "University of New South Wales", "src": "/logo/unsw_logo.png" }
+    ]
+  }
 }

@@ -11,30 +11,35 @@
         "title": "Research Excellence",
         "subtitle": "Our Focus",
         "description": "We are dedicated to advancing the field of machine learning and artificial intelligence through innovative research.",
+        "imageUrl": "https://images.unsplash.com/photo-1559136555-9303baea8ebd",
         "colSpan": 3
       },
       {
         "title": "Latest Publications",
         "subtitle": "Recent Work",
         "description": "Explore our recent publications in top-tier conferences and journals.",
+        "imageUrl": "https://images.unsplash.com/photo-1559136555-9303baea8ebd",
         "colSpan": 3
       },
       {
         "title": "Open Source",
         "subtitle": "Resources",
         "description": "We share our code and datasets with the community.",
+        "imageUrl": "https://images.unsplash.com/photo-1559136555-9303baea8ebd",
         "colSpan": 2
       },
       {
         "title": "Collaborations",
         "subtitle": "Partners",
         "description": "Working with leading institutions worldwide.",
+        "imageUrl": "https://images.unsplash.com/photo-1559136555-9303baea8ebd",
         "colSpan": 2
       },
       {
         "title": "Join Us",
         "subtitle": "Opportunities",
         "description": "We are always looking for talented researchers and students.",
+        "imageUrl": "https://images.unsplash.com/photo-1559136555-9303baea8ebd",
         "colSpan": 2
       }
     ]

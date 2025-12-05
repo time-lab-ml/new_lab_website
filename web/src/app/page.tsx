@@ -1,4 +1,3 @@
-import Navbar from '@/components/Navbar'
 import BentoGrid from '@/components/BentoGrid'
 
 // Placeholder data - will be replaced with data from JSON
@@ -37,30 +36,27 @@ const homeBentoItems = [
 
 export default function Home() {
   return (
-    <>
-      <Navbar />
-      <main className="min-h-screen bg-background">
-        {/* Hero Section */}
-        <div className="bg-surface-container py-24 sm:py-32">
-          <div className="mx-auto max-w-7xl px-6 lg:px-8">
-            <div className="mx-auto max-w-2xl text-center">
-              <h1 className="text-4xl font-bold tracking-tight text-on-surface sm:text-6xl">
-                Welcome to TIME Lab
-              </h1>
-              <p className="mt-6 text-lg leading-8 text-on-surface-variant">
-                Time-series Intelligence and Machine learning Excellence Laboratory
-              </p>
-            </div>
+    <div className="bg-background">
+      {/* Hero Section */}
+      <div className="bg-surface-container py-24 sm:py-32">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="mx-auto max-w-2xl text-center">
+            <h1 className="text-4xl font-bold tracking-tight text-on-surface sm:text-6xl">
+              Welcome to TIME Lab
+            </h1>
+            <p className="mt-6 text-lg leading-8 text-on-surface-variant">
+              Time-series Intelligence and Machine learning Excellence Laboratory
+            </p>
           </div>
         </div>
+      </div>
 
-        {/* Bento Grid Section */}
-        <BentoGrid
-          headline="What We Do"
-          title="Advancing AI Research"
-          items={homeBentoItems}
-        />
-      </main>
-    </>
+      {/* Bento Grid Section */}
+      <BentoGrid
+        headline="What We Do"
+        title="Advancing AI Research"
+        items={homeBentoItems}
+      />
+    </div>
   )
 }

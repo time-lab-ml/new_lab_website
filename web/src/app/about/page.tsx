@@ -1,4 +1,3 @@
-import Navbar from '@/components/Navbar'
 import Mission from '@/components/Mission'
 import Timeline from '@/components/Timeline'
 
@@ -55,16 +54,13 @@ const timelineData = [
 
 export default function About() {
   return (
-    <>
-      <Navbar />
-      <main className="min-h-screen bg-background">
-        <Mission {...missionData} />
-        
-        <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <h2 className="text-3xl font-semibold tracking-tight text-on-surface">Our Journey</h2>
-        </div>
-        <Timeline items={timelineData} />
-      </main>
-    </>
+    <div className="bg-background">
+      <Mission {...missionData} />
+      
+      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        <h2 className="text-3xl font-semibold tracking-tight text-on-surface">Our Journey</h2>
+      </div>
+      <Timeline items={timelineData} />
+    </div>
   )
 }

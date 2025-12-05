@@ -1,6 +1,37 @@
 import BentoGrid from '@/components/BentoGrid'
+import NewsUpdates from '@/components/NewsUpdates'
 
 // Placeholder data - will be replaced with data from JSON
+const homeNewsItems = [
+  {
+    title: 'Paper Accepted at NeurIPS 2025',
+    date: '2025-12-01',
+    description: 'Our latest research on temporal motion prediction has been accepted at NeurIPS 2025.',
+    category: 'Publication',
+    link: '/publication',
+  },
+  {
+    title: 'New Lab Members Join TIME Lab',
+    date: '2025-11-15',
+    description: 'We welcome three new PhD students and two postdoctoral researchers to our team.',
+    category: 'Team',
+    link: '/team',
+  },
+  {
+    title: 'Open Source Release: MotionNet v2.0',
+    date: '2025-10-28',
+    description: 'We have released the latest version of our motion extraction toolkit with improved performance and new features.',
+    category: 'Resource',
+    link: '/resource',
+  },
+  {
+    title: 'Collaboration with Industry Partners',
+    date: '2025-10-10',
+    description: 'TIME Lab announces new research collaboration with leading tech companies in autonomous systems.',
+    category: 'News',
+  },
+]
+
 const homeBentoItems = [
   {
     title: 'Research Excellence',
@@ -56,6 +87,13 @@ export default function Home() {
         headline="What We Do"
         title="Advancing AI Research"
         items={homeBentoItems}
+      />
+
+      {/* News Updates Section */}
+      <NewsUpdates
+        headline="Stay Updated"
+        title="News & Updates"
+        items={homeNewsItems}
       />
     </div>
   )

@@ -4,6 +4,7 @@ import { useState } from 'react'
 import Link from 'next/link'
 import { Dialog, DialogPanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import ThemeToggle from './ThemeToggle'
 
 const navigation = [
   { name: 'Home', href: '/' },
@@ -23,7 +24,8 @@ export default function Navbar() {
     <header className="bg-surface-container">
       <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
         <div className="flex lg:flex-1">
-          <Link href="/" className="-m-1.5 p-1.5">
+          <Link href="/" className="-m-1.5 p-1.5 flex items-center gap-2">
+            <img src="https://time.griffith.edu.au/images/logo.gif" alt="TIME Lab Logo" className="h-8 w-auto" />
             <span className="text-xl font-bold text-primary">TIME Lab</span>
           </Link>
         </div>
@@ -37,29 +39,34 @@ export default function Navbar() {
             <Bars3Icon aria-hidden="true" className="size-6" />
           </button>
         </div>
-        <div className="hidden lg:flex lg:gap-x-12">
+        <div className="hidden lg:flex lg:items-center lg:gap-x-12">
           {navigation.map((item) => (
             <Link key={item.name} href={item.href} className="text-sm/6 font-semibold text-on-surface hover:text-primary transition">
               {item.name}
             </Link>
           ))}
+          <ThemeToggle />
         </div>
       </nav>
       <Dialog open={mobileMenuOpen} onClose={setMobileMenuOpen} className="lg:hidden">
         <div className="fixed inset-0 z-50" />
         <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-surface-container p-6 sm:max-w-sm sm:ring-1 sm:ring-outline-variant">
           <div className="flex items-center justify-between">
-            <Link href="/" className="-m-1.5 p-1.5">
+            <Link href="/" className="-m-1.5 p-1.5 flex items-center gap-2">
+              <img src="https://time.griffith.edu.au/images/logo.gif" alt="TIME Lab Logo" className="h-8 w-auto" />
               <span className="text-xl font-bold text-primary">TIME Lab</span>
             </Link>
-            <button
-              type="button"
-              onClick={() => setMobileMenuOpen(false)}
-              className="-m-2.5 rounded-md p-2.5 text-on-surface-variant"
-            >
-              <span className="sr-only">Close menu</span>
-              <XMarkIcon aria-hidden="true" className="size-6" />
-            </button>
+            <div className="flex items-center gap-2">
+              <ThemeToggle />
+              <button
+                type="button"
+                onClick={() => setMobileMenuOpen(false)}
+                className="-m-2.5 rounded-md p-2.5 text-on-surface-variant"
+              >
+                <span className="sr-only">Close menu</span>
+                <XMarkIcon aria-hidden="true" className="size-6" />
+              </button>
+            </div>
           </div>
           <div className="mt-6 flow-root">
             <div className="-my-6 divide-y divide-outline-variant">

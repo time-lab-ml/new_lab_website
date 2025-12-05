@@ -99,8 +99,7 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
+.dark {
     /* Material Theme - Dark Mode */
     --primary: #95D5A7;
     --on-primary: #00391D;
@@ -147,9 +146,8 @@
     --shadow: #000000;
     --scrim: #000000;
     
-    /* Shortcuts */
-    --foreground: var(--on-background);
-  }
+  /* Shortcuts */
+  --foreground: var(--on-background);
 }
 
 body {

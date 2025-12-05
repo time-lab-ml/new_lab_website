@@ -45,7 +45,7 @@ export default function Home() {
               Welcome to TIME Lab
             </h1>
             <p className="mt-6 text-lg leading-8 text-on-surface-variant">
-              Time-series Intelligence and Machine learning Excellence Laboratory
+              Temporal Intelligence and Motion Extraction Lab
             </p>
           </div>
         </div>

@@ -11,7 +11,7 @@
         "title": "Transformative Research",
         "subtitle": "Our Focus",
         "description": "Shifting from fundamental research to applicable data aggregation and evolutionary insights, expanding from action recognition to comprehensive video and scene understanding.",
-        "imageUrl": "https://images.unsplash.com/photo-1559136555-9303baea8ebd",
+        "imageUrl": "https://images.unsplash.com/photo-1760351561007-526f5353cc76?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "colSpan": 3
       },
       {
@@ -25,7 +25,7 @@
         "title": "Open Source",
         "subtitle": "Resources",
         "description": "We share our code and datasets with the community.",
-        "imageUrl": "https://images.unsplash.com/photo-1559136555-9303baea8ebd",
+        "imageUrl": "https://images.unsplash.com/photo-1565687981296-535f09db714e?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "colSpan": 2
       },
       {
@@ -49,29 +49,214 @@
     "title": "News & Updates",
     "items": [
       {
-        "title": "TIME 2025 Workshop at WWW'25 Sydney",
-        "date": "2025-04-28",
-        "description": "Join us at the TIME 2025 workshop in Sydney, highlighting Transformative Insights and Multi-faceted Evaluation for responsible AI.",
+        "title": "TIME Lab Students Join CMU and NTU",
+        "date": "11/26/2025",
+        "description": "We're proud to share that TIME Lab student Xi Ding has begun his research internship at Carnegie Mellon University (CMU, QS #52 globally), and Gennie Nguyen has started her PhD studies at Nanyang Technological University (NTU, QS #12 globally and #2 in QS Asia). Congratulations to both, we wish them great success!",
+        "category": "News"
+      },
+      {
+        "title": "TIME 2026 Workshop Now Open for Submissions",
+        "date": "11/25/2025",
+        "description": "Our workshop, \"TIME 2026: 2nd International Workshop on Transformative Insights in Multi-faceted Evaluation\", held at The Web Conference (WWW 2026, A*), is now open for paper submissions. More details are available on our TIME 2026 call for paper submission.",
         "category": "Event",
         "link": "/event"
       },
       {
-        "title": "TIME Lab Website Relaunch",
-        "date": "2025-12-01",
-        "description": "Our renewed website is now live, showcasing our evolution to TIME³ and commitment to Transparent, Inclusive, Measured, and Ethical AI.",
+        "title": "Xi Ding Completes Project as Visiting Scholar",
+        "date": "11/16/2025",
+        "description": "Congratulations to Xi Ding on the successful completion of the \"When Features Reflect Predictions\" project as a Visiting Scholar at the TIME@ARC Hub&Griffith!",
         "category": "News"
       },
       {
-        "title": "Open Source Release: MotionNet v2.0",
-        "date": "2025-10-28",
-        "description": "We have released the latest version of our motion extraction toolkit with improved performance and new features.",
-        "category": "Resource",
-        "link": "/resource"
+        "title": "Paper Accepted for AAAI-26 Journal Track",
+        "date": "11/11/2025",
+        "description": "One paper has been accepted for the AAAI-26 Journal Track.",
+        "category": "Publication",
+        "link": "/publication"
       },
       {
-        "title": "Collaboration with Industry Partners",
-        "date": "2025-10-10",
-        "description": "TIME Lab announces new research collaboration with leading tech companies in autonomous systems.",
+        "title": "TIME 2026 Workshop Accepted at WWW 2026",
+        "date": "11/09/2025",
+        "description": "One workshop proposal entitled \"TIME 2026: 2nd International Workshop on Transformative Insights in Multi-faceted Evaluation\" has been accepted at The Web Conference (WWW 2026, A*) as a full-day workshop. Syuan-Hao Li (TIME@ARC Hub&Griffith), Zhicheng Zhang (UNSW), and Dr Zicheng Pan (Griffith) have been appointed as TIME 2026 Workshop Coordinators.",
+        "category": "Event"
+      },
+      {
+        "title": "Paper Accepted at AAAI 2026",
+        "date": "11/08/2025",
+        "description": "One paper has been accepted at AAAI 2026 (17.6% acceptance rate). Congratulations to Xi Ding!",
+        "category": "Publication",
+        "link": "/publication"
+      },
+      {
+        "title": "Xi Ding Receives NeurIPS 2025 Scholar Award",
+        "date": "10/11/2025",
+        "description": "Congratulations to Xi Ding, recipient of the NeurIPS 2025 Scholar Award!",
+        "category": "News"
+      },
+      {
+        "title": "Welcome Ankur Singh as ARC Hub Scholar",
+        "date": "10/08/2025",
+        "description": "Welcome Ankur Singh (ANU) to the ARC Research Hub at Griffith University as an ARC Hub Scholar in TIME Lab!",
+        "category": "News"
+      },
+      {
+        "title": "Paper Accepted at BJIT",
+        "date": "10/05/2025",
+        "description": "One paper has been accepted for publication in International Journal of Information Technology (BJIT). Congratulations to Gennie Nguyen!",
+        "category": "Publication",
+        "link": "/publication"
+      },
+      {
+        "title": "Two Papers Accepted at NeurIPS 2025",
+        "date": "09/19/2025",
+        "description": "Two papers have been accepted at NeurIPS 2025. Congratulations to Xi Ding and Jiahao Ma!",
+        "category": "Publication",
+        "link": "/publication"
+      },
+      {
+        "title": "Launching the TIME³ Vision",
+        "date": "08/15/2025",
+        "description": "At the ARC Research Hub & Griffith University, TIME³ Lab, evolving from the original TIME Lab, unites three levels of AI research: Temporal Intelligence and Motion Extraction, Transformative Insights in Multi-faceted Evaluation, and Transparent, Inclusive, Measured, Ethical AI. The lab drives Green, responsible, and transformative AI, setting a new benchmark for sustainable, trustworthy, and cross-disciplinary research.",
+        "category": "News"
+      },
+      {
+        "title": "Oral Presentation at ACM-MM 2025 (Brave New Ideas Track)",
+        "date": "08/01/2025",
+        "description": "One paper has been accepted for an oral presentation at ACM-MM 2025 (Brave New Ideas Track). Congratulations to Jia Haozhe, Wenshuo Chen, Huang Zhihui, Hongru Xiao, Jia Nanqian, Keming Wu, Songning Lai, and Bowen Tian.",
+        "category": "Publication",
+        "link": "/publication"
+      },
+      {
+        "title": "Paper Accepted at BMVC 2025",
+        "date": "07/26/2025",
+        "description": "One paper has been accepted at BMVC 2025. Congratulations to Junliang Ye!",
+        "category": "Publication",
+        "link": "/publication"
+      },
+      {
+        "title": "Paper Accepted at ICCV 2025 Workshop",
+        "date": "07/11/2025",
+        "description": "One paper has been accepted to the ICCV 2025 Workshop on \"Vision Foundation Models and Generative AI for Accessibility: Challenges and Opportunities\". Congratulations to Sen Fang (Rutgers University)!",
+        "category": "Publication",
+        "link": "/publication"
+      },
+      {
+        "title": "Xi Ding Presents at Data61/CSIRO ICVG Reading Group",
+        "date": "07/08/2025",
+        "description": "Congratulations to Xi Ding on being invited by Dr. Miaohua Zhang (Data61/CSIRO) to present his talk, \"Echoes in the Model: When Features Reflect Predictions\", at Data61's ICVG Reading Group. The presentation is based on his recent work at TIME@ARC Hub&Griffith!",
+        "category": "News"
+      },
+      {
+        "title": "TIME Lab Students Start PhDs at UTS and Macquarie University",
+        "date": "07/07/2025",
+        "description": "We're proud to share that TIME Lab students Huilin Chen and Dexuan Ding have started their PhDs at UTS (QS #96 globally, #9 in Australia) and Macquarie University (QS #138 globally, #11 in Australia), respectively. Congratulations to both, we wish them great success!",
+        "category": "News"
+      },
+      {
+        "title": "Paper Accepted at ACM-MM 2025",
+        "date": "07/05/2025",
+        "description": "One paper has been accepted at ACM-MM 2025. Congratulations to Wenshuo Chen, Kuimou Yu, Haozhe Jia, Kaishen Yuan, Bowen Tian, Songning Lai, Hongru Xiao, and Erhang Zhang.",
+        "category": "Publication",
+        "link": "/publication"
+      },
+      {
+        "title": "Outstanding Honours and Master's Supervision Results at ANU",
+        "date": "07/03/2025",
+        "description": "Primarily supervised 1 Honours and 2 Master's students at ANU, resulting in 2 High Distinction theses. Congratulations to Arjun Raj and Gennie Nguyen! Co-supervised 3 ANU Master's students, with 2 earning Distinction grades for their theses.",
+        "category": "News"
+      },
+      {
+        "title": "TIME Lab Joins ARC Research Hub and Griffith University",
+        "date": "07/03/2025",
+        "description": "TIME Lab has been successfully reallocated to the ARC Research Hub and Griffith University. With this exciting transition, our research environment has been enriched by strong institutional support, new facilities, and a vibrant cohort of research students. Our team is thriving in a culture that values innovation, collaboration, and a healthy work–life balance. In line with this new chapter, we are currently renewing the TIME Lab website to reflect our refreshed vision and direction. The new site is expected to launch on December 1, 2025.",
+        "category": "News"
+      },
+      {
+        "title": "Welcome Edwin Kwadwo Tenagyei as PhD Research Trainee",
+        "date": "05/30/2025",
+        "description": "Welcome Edwin Kwadwo Tenagyei (Griffith & ARC Hub) to my research group as a PhD Research Trainee!",
+        "category": "News"
+      },
+      {
+        "title": "Welcome Wenxiang Diao as Research Intern",
+        "date": "05/26/2025",
+        "description": "Welcome Wenxiang Diao (UNSW Sydney) to the ARC Research Hub at Griffith University as a TIME Lab Research Intern!",
+        "category": "News"
+      },
+      {
+        "title": "Xi Ding Wins Best Paper Award at TheWebConf'25 Workshop",
+        "date": "04/29/2025",
+        "description": "Congratulations to Xi Ding on winning the Best Paper Award at TheWebConf'25 workshop!",
+        "category": "News"
+      },
+      {
+        "title": "Xi Ding Joins ARC Research Hub as ARC Hub Scholar",
+        "date": "03/17/2025",
+        "description": "Welcome Xi Ding (ANU) to the ARC Research Hub at Griffith University as an ARC Hub Scholar in TIME Lab!",
+        "category": "News"
+      },
+      {
+        "title": "TIME Space Included in 2025 TechLauncher Program",
+        "date": "03/02/2025",
+        "description": "Dr. Lei Wang's proposed project, \"TIME Space\", has been officially included in the 2025 TechLauncher program. Xi Ding and Xiuyuan (Jack) Yuan will serve as the delegated clients at TIME Lab on behalf of Lei Wang.",
+        "category": "News"
+      },
+      {
+        "title": "Three Papers Accepted at WWW Companion 2025",
+        "date": "01/28/2025",
+        "description": "Three papers (two orals and one poster) have been accepted to the Companion Proceedings of the ACM Web Conference (WWW Companion 2025). Congratulations to Xi Ding and Jushang Qiu.",
+        "category": "Publication",
+        "link": "/publication"
+      },
+      {
+        "title": "TIME Lab Achievements: Top-Tier Publications",
+        "date": "01/23/2025",
+        "description": "The TIME Lab, composed of honors and master's students, achieved significant milestones under Dr. Wang's primary supervision, including three top-tier publications (NeurIPS'24, ICLR'25, ICML'24), an oral presentation at ACML'24 (a respected ML conference in Asia-Pacific), and a paper at ICASSP'25 (a prestigious signal processing venue) from November 20, 2023, to October 25, 2024.",
+        "category": "News"
+      },
+      {
+        "title": "Paper Accepted at ICLR 2025",
+        "date": "01/23/2025",
+        "description": "One paper has been accepted at ICLR 2025. Congratulations to Dexuan Ding.",
+        "category": "Publication",
+        "link": "/publication"
+      },
+      {
+        "title": "Major Grants Secured for Video Models Research",
+        "date": "01/02/2025",
+        "description": "We're proud to announce two major grants for our lab: \"MotionNetLite: Video Dynamics Distillation for Scalable Models\" under the NCMAS 2025 and \"Efficient Video Models through Compression and Data Optimization\" under the ANUMAS 2025. Both projects are led by our Lab Lead, Dr. Wang, and aim to drive innovation in scalable and efficient video processing.",
+        "category": "News"
+      },
+      {
+        "title": "Paper Accepted at ICASSP 2025",
+        "date": "12/21/2024",
+        "description": "One paper has been accepted at ICASSP 2025. Congratulations to Arjun Raj.",
+        "category": "Publication",
+        "link": "/publication"
+      },
+      {
+        "title": "Outstanding Final-Year Research Results",
+        "date": "11/28/2024",
+        "description": "Three Honours (Qixiang Chen, Huilin Chen, Dexuan Ding) and three Master's students (Liyun Zhu, Jushang Qiu, Liwen Luo) from TIME Lab completed their final-year research projects, achieving outstanding results with three High Distinctions (HD) and three Distinctions (D).",
+        "category": "News"
+      },
+      {
+        "title": "TIME 2025 Workshop Now Open for Submissions",
+        "date": "11/26/2024",
+        "description": "Our workshop, \"TIME 2025: 1st International Workshop on Transformative Insights in Multi-faceted Evaluation\", held at The Web Conference (WWW 2025, A*), is now open for paper submissions. More details are available on our TIME 2025 workshop page.",
+        "category": "Event",
+        "link": "/event"
+      },
+      {
+        "title": "TIME 2025 Workshop Accepted at WWW 2025",
+        "date": "11/21/2024",
+        "description": "One workshop proposal entitled \"TIME 2025: 1st International Workshop on Transformative Insights in Multi-faceted Evaluation\" has been accepted at The Web Conference (WWW 2025, A*) as a half-day workshop. Arjun Raj, Qixiang Chen, Xiuyuan (Jack) Yuan, and Xi Ding have been appointed as TIME 2025 Workshop Coordinators.",
+        "category": "Event"
+      },
+      {
+        "title": "Welcome Xi Ding as Research Assistant",
+        "date": "11/13/2024",
+        "description": "Welcome Xi Ding to TIME Lab as a Research Assistant working on transparent and interpretable AI.",
         "category": "News"
       }
     ]

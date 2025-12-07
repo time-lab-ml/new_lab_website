@@ -15,11 +15,10 @@ interface NewsUpdatesProps {
 export default function NewsUpdates({ headline, title, items }: NewsUpdatesProps) {
   const formatDate = (dateString: string) => {
     const date = new Date(dateString)
-    return date.toLocaleDateString('en-US', {
-      year: 'numeric',
-      month: 'short',
-      day: 'numeric',
-    })
+    const day = date.getDate()
+    const month = date.toLocaleDateString('en-US', { month: 'short' })
+    const year = date.getFullYear()
+    return `${day}.${month}.${year}`
   }
 
   return (

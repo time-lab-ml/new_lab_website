@@ -212,3 +212,20 @@ body {
   stroke-dasharray: 18 9;
   animation: curve-flow-4 4.5s ease-in-out infinite;
 }
+
+/* Business Card 3D Flip Effect */
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.transform-style-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}

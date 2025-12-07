@@ -1,12 +1,14 @@
 {
   "mission": {
     "headline": "About Us",
-    "title": "On a mission to advance AI research",
-    "subtitle": "We are a research laboratory dedicated to pushing the boundaries of machine learning and artificial intelligence.",
-    "missionTitle": "Our Mission",
+    "title": "Transformative Insights and Multi-faceted Evaluation",
+    "subtitle": "Building AI that is Transparent, Inclusive, Measured, and Ethical.",
+    "missionTitle": "Our Evolution",
     "missionContent": [
-      "TIME Lab is committed to conducting cutting-edge research in machine learning, with a focus on time-series analysis, deep learning, and AI applications.",
-      "We believe in open science and collaboration. Our team works closely with industry partners and academic institutions to solve real-world problems."
+      "TIME Lab is currently undergoing a significant transformation. Originally named Temporal Intelligence and Motion Extraction, we are now shifting from fundamental research toward aggregating applicable data and generating evolutionary insights.",
+      "We are expanding from action recognition and anomaly detection to broader video and scene understanding, and from analyzing human-perceivable motions to capturing subtle changes such as particle shifts, seasonal transitions, or plant growth.",
+      "TIME now represents our broader mission: Building AI that is Transparent (promotes openness, auditability, and trust), Inclusive (reflects fairness, diversity, and bias mitigation), Measured (emphasizes accountability and quantifiable performance), and Ethical (aligns with responsible AI principles).",
+      "Integrating collective experiences from ANU, Data61/CSIRO, Griffith, and UNSW, we are approaching our next and more mature phase—TIME³."
     ],
     "stats": [
       { "label": "Publications", "value": "12" },
@@ -23,28 +25,28 @@
   },
   "timeline": [
     {
-      "name": "Lab Founded",
-      "description": "TIME Lab was established with a vision to advance machine learning research.",
-      "date": "Jan 2020",
-      "dateTime": "2020-01"
+      "name": "Lab Founded at ANU",
+      "description": "TIME Lab was established at Australian National University, originally named Temporal Intelligence and Motion Extraction, focusing on fundamental research in action recognition and anomaly detection.",
+      "date": "Feb 2024",
+      "dateTime": "2024-02"
     },
     {
-      "name": "First Major Publication",
-      "description": "Our research was published in a top-tier conference for the first time.",
-      "date": "Jun 2021",
-      "dateTime": "2021-06"
+      "name": "Collaboration with Data61/CSIRO",
+      "description": "Strengthened partnership with CSIRO's Data61, expanding research scope and industry applications in video processing and dynamics analysis.",
+      "date": "Mid 2024",
+      "dateTime": "2024-06"
     },
     {
-      "name": "Industry Partnership",
-      "description": "Started collaboration with leading tech companies on applied research.",
-      "date": "Mar 2022",
-      "dateTime": "2022-03"
+      "name": "Integration with Griffith & UNSW",
+      "description": "TIME Lab evolved by integrating expertise from Griffith University and UNSW, marking the transition to TIME³ and a more mature phase of development.",
+      "date": "Late 2024",
+      "dateTime": "2024-10"
     },
     {
-      "name": "Lab Expansion",
-      "description": "Team grew to include more PhD students and postdoctoral researchers.",
-      "date": "Sep 2023",
-      "dateTime": "2023-09"
+      "name": "TIME 2025 Workshop at WWW'25",
+      "description": "Announcing the TIME 2025 workshop at WWW'25 in Sydney, highlighting our new direction: Transformative Insights and Multi-faceted Evaluation, with focus on Transparent, Inclusive, Measured, and Ethical AI.",
+      "date": "Apr 2025",
+      "dateTime": "2025-04"
     }
   ],
   "collaborations": {

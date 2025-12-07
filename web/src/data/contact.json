@@ -4,32 +4,21 @@
   "contacts": [
     {
       "title": "General Inquiries",
-      "email": "timelab@university.edu",
-      "phone": "+1 (555) 123-4567"
-    },
-    {
-      "title": "Collaboration",
-      "email": "collaborate@timelab.edu"
-    },
-    {
-      "title": "Prospective Students",
-      "email": "students@timelab.edu"
-    },
-    {
-      "title": "Media & Press",
-      "email": "press@timelab.edu"
+      "email": "time.lab@griffith.edu.au"
     }
   ],
   "locationTitle": "Location",
-  "locationDescription": "Visit us at our campus.",
+  "locationDescription": "Visit us at our lab at Griffith University.",
   "locations": [
     {
-      "name": "Main Office",
-      "address": ["Computer Science Building", "Room 512", "University Campus"]
-    },
-    {
-      "name": "Research Lab",
-      "address": ["Engineering Building", "Room 301", "University Campus"]
+      "name": "TIME Lab",
+      "address": [
+        "Griffith University",
+        "Nathan Campus",
+        "Campus Community (N66) Room 1.30E",
+        "Nathan, QLD 4111",
+        "Australia"
+      ]
     }
   ]
 }

@@ -13,6 +13,48 @@ interface MissionProps {
   images?: string[]
 }
 
+// Function to highlight keywords in text
+function highlightKeywords(text: string) {
+  const keywords = [
+    'TIME',
+    'Transparent',
+    'Inclusive',
+    'Measured',
+    'Ethical',
+    'Transformative Insights',
+    'Multi-faceted Evaluation',
+    'TIME³'
+  ]
+  
+  let result: (string | React.ReactElement)[] = [text]
+  
+  keywords.forEach((keyword) => {
+    const newResult: (string | React.ReactElement)[] = []
+    result.forEach((part, partIndex) => {
+      if (typeof part === 'string') {
+        const regex = new RegExp(`(${keyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'g')
+        const parts = part.split(regex)
+        parts.forEach((subpart, index) => {
+          if (subpart === keyword) {
+            newResult.push(
+              <span key={`${partIndex}-${index}`} className="text-primary font-semibold">
+                {subpart}
+              </span>
+            )
+          } else if (subpart) {
+            newResult.push(subpart)
+          }
+        })
+      } else {
+        newResult.push(part)
+      }
+    })
+    result = newResult
+  })
+  
+  return result
+}
+
 export default function Mission({
   headline,
   title,
@@ -41,7 +83,7 @@ export default function Mission({
             </h2>
             {missionContent.map((paragraph, index) => (
               <p key={index} className="mt-6 text-base/7 text-on-surface-variant">
-                {paragraph}
+                {highlightKeywords(paragraph)}
               </p>
             ))}
           </div>

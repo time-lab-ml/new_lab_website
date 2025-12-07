@@ -21,12 +21,12 @@ export default function LogoCloud({ title = "Our Collaborations", logos }: LogoC
           {logos.map((logo) => (
             <div
               key={logo.name}
-              className="col-span-2 flex h-16 items-center justify-center lg:col-span-1"
+              className="col-span-2 flex h-20 w-40 items-center justify-center rounded-lg bg-white p-3 dark:bg-gray-100 lg:col-span-1"
             >
               <img
                 alt={logo.name}
                 src={logo.src}
-                className="max-h-14 max-w-[140px] w-auto object-contain"
+                className="h-full w-full object-contain"
               />
             </div>
           ))}

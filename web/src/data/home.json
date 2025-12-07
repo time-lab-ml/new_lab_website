@@ -1,16 +1,16 @@
 {
   "hero": {
     "title": "Welcome to TIME Lab",
-    "subtitle": "Temporal Intelligence and Motion Extraction Lab"
+    "subtitle": "Transformative Insights and Multi-faceted Evaluation Lab"
   },
   "bentoGrid": {
     "headline": "What We Do",
-    "title": "Advancing AI Research",
+    "title": "Building Transparent, Inclusive, Measured, and Ethical AI",
     "items": [
       {
-        "title": "Research Excellence",
+        "title": "Transformative Research",
         "subtitle": "Our Focus",
-        "description": "We are dedicated to advancing the field of machine learning and artificial intelligence through innovative research.",
+        "description": "Shifting from fundamental research to applicable data aggregation and evolutionary insights, expanding from action recognition to comprehensive video and scene understanding.",
         "imageUrl": "https://images.unsplash.com/photo-1559136555-9303baea8ebd",
         "colSpan": 3
       },
@@ -31,7 +31,7 @@
       {
         "title": "Collaborations",
         "subtitle": "Partners",
-        "description": "Working with leading institutions worldwide.",
+        "description": "Integrating expertise from ANU, Data61/CSIRO, Griffith University, and UNSW, building TIME³.",
         "imageUrl": "https://images.unsplash.com/photo-1559136555-9303baea8ebd",
         "colSpan": 2
       },
@@ -49,18 +49,17 @@
     "title": "News & Updates",
     "items": [
       {
-        "title": "Paper Accepted at NeurIPS 2025",
-        "date": "2025-12-01",
-        "description": "Our latest research on temporal motion prediction has been accepted at NeurIPS 2025.",
-        "category": "Publication",
-        "link": "/publication"
+        "title": "TIME 2025 Workshop at WWW'25 Sydney",
+        "date": "2025-04-28",
+        "description": "Join us at the TIME 2025 workshop in Sydney, highlighting Transformative Insights and Multi-faceted Evaluation for responsible AI.",
+        "category": "Event",
+        "link": "/event"
       },
       {
-        "title": "New Lab Members Join TIME Lab",
-        "date": "2025-11-15",
-        "description": "We welcome three new PhD students and two postdoctoral researchers to our team.",
-        "category": "Team",
-        "link": "/team"
+        "title": "TIME Lab Website Relaunch",
+        "date": "2025-12-01",
+        "description": "Our renewed website is now live, showcasing our evolution to TIME³ and commitment to Transparent, Inclusive, Measured, and Ethical AI.",
+        "category": "News"
       },
       {
         "title": "Open Source Release: MotionNet v2.0",

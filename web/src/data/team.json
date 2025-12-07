@@ -3,7 +3,15 @@
     {
       "name": "Prof. John Doe",
       "role": "Lab Director",
-      "imageUrl": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
+      "imageUrl": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+      "email": "john.doe@university.edu",
+      "phone": "+1-234-567-8900",
+      "website": "https://johndoe.com",
+      "office": "Engineering Building, Room 301",
+      "linkedin": "https://linkedin.com/in/johndoe",
+      "github": "https://github.com/johndoe",
+      "twitter": "https://twitter.com/johndoe",
+      "researchInterests": ["Machine Learning", "Computer Vision", "NLP"]
     }
   ],
   "phdStudents": [
